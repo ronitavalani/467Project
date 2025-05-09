@@ -22,10 +22,14 @@ Through the development process, we tested 4 main methods:
 
 ## How to Run
 
-For all ipynb, open the files on a source code editor of your choice or with Google Colab and simply press the play button for each cell.
+### Jupyter Notebooks
 
-For training_pipeline.py, run the following commands:
+Open the files (`.ipynb`) in a source code editor or Google Colab and execute each cell sequentially.
 
+### Python Script
+
+Install dependencies and run the training script:
+```bash
 pip install -r requirements.txt
 python3 training_pipeline.py
 
