@@ -15,10 +15,10 @@ For this project, we utilized an open-source dataset scraped from Spotify's API.
 ## Methods
 
 Through the development process, we tested 4 main methods: 
-- **K Neighbors Classifier**: baseline.ipynb
-- **Basic MLP with one hidden layer**: genre.ipynb
-- **A revised MLP with 4 hidden layers and domain-specific featurization**: training_pipeline.py
-- **XGBoost**: xgboost.ipynb
+- **K Neighbors Classifier**: KNeighbors/baseline.ipynb
+- **Basic MLP with one hidden layer**: BasicMLP/genre.ipynb
+- **A revised MLP with 4 hidden layers and domain-specific featurization**: RevisedMLP/training_pipeline.py
+- **XGBoost**: XGBoost/xgboost.ipynb
 
 ## How to Run
 
