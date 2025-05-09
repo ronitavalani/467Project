@@ -19,9 +19,8 @@ from feature_engineering import apply_feature_engineering_pipeline
 from eval import evaluate_model_detailed, analyze_misclassifications, visualize_learned_features
 
 # Load data
-df = pd.read_csv(
-    "../spotify_songs.csv"
-)
+url = 'https://raw.githubusercontent.com/ronitavalani/467Project/main/spotify_songs.csv'
+df = pd.read_csv(url)
 df['playlist_genre'] = df['playlist_genre'].astype(str).apply(lambda x: x.split(',')[0].strip())
 
 # Feature engineering
