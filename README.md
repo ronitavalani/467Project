@@ -8,23 +8,23 @@ Accurate genre classification is crucial for improving recommendation systems in
 
 We explored several approaches, including K-Nearest Neighbors, Multilayer Perceptrons, and XGBoost. Ultimately, XGBoost emerged as the best-performing model, effectively handling class imbalance and overlapping feature distributions.
 
-# Dataset
+## Dataset
 
-For this project we utilized a Open Source dataset scraped from Spotify's API. This dataset has a list of songs, the playlist genre's they are associated with, as well as a list of numerical metrics to measure features of the song such as: ['track_popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'].
+For this project, we utilized an open-source dataset scraped from Spotify's API. This dataset has a list of songs, the playlist genre's they are associated with, as well as a list of numerical metrics to measure features of the song such as: ['track_popularity', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'].
 
-# Methods
+## Methods
 
-Through the development process we tested 4 main methods: 
-- K Neighbors Classifier: baseline.ipynb
-- Basic MLP with one hidden layer: genre.ipynb
-- A revised MLP with 4 hidden layers and domain specific featurization: training_pipeline.py
-- XGBoost: xgboost.ipynb
+Through the development process, we tested 4 main methods: 
+- **K Neighbors Classifier**: baseline.ipynb
+- **Basic MLP with one hidden layer**: genre.ipynb
+- **A revised MLP with 4 hidden layers and domain-specific featurization**: training_pipeline.py
+- **XGBoost**: xgboost.ipynb
 
-# How to Run
+## How to Run
 
-For all ipynb open the files on a source code editor of your choice or with Google Colab and simply press the play button for each cell.
+For all ipynb, open the files on a source code editor of your choice or with Google Colab and simply press the play button for each cell.
 
-For training_pipeline.py run the folloqing commands:
+For training_pipeline.py, run the following commands:
 
 pip install -r requirements.txt
 python3 training_pipeline.py
